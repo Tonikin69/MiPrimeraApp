@@ -10,6 +10,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         Log.v("MainActivity", "Se ha creado correctamente")
 //hola
+        //adios
 
     }
 }
