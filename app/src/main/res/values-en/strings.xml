@@ -2,4 +2,5 @@
 <resources>
     <string name="app_name">Mifirst app</string>
     <string name="hello">hello</string>
+    <string name="hello_world">hello world</string>
 </resources>

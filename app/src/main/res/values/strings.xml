@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">Miprimerapp</string>
     <string name="hello">Hello</string>
+    <string name="hello_world">hello world</string>
 </resources>
