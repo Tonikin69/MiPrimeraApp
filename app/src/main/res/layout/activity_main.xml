@@ -5,32 +5,100 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".MainActivity">
-
+    android:background="@color/naranjito"
+    android:layout_margin="10dp"
+    tools:context=".MainActivity"
+    android:padding="20dp"
+    >
 
     <Button
         android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Button" />
+        android:text="Button"
+        android:padding="20dp"
+        />
+
+    //match parent coje todo el espacio y wrap content se adapta al contenido
+    //el padding es los dp hasta el centro, es decir, donde empieza el texto
+    //el gravity es para lo de dentro y layout gravity se lo preguntas al padre, es mas lo de fuera
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="TextView" />
+        android:text="TextView"
+        android:layout_marginBottom="15dp"
+        android:gravity="center"
+        />
 
     <Button
         android:id="@+id/button2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Button" />
+        android:layout_margin="10dp"
+        android:text="Botonaco"
+        android:layout_gravity="center"
+        />
+
 
     <Switch
         android:id="@+id/switch1"
         android:layout_width="102dp"
         android:layout_height="wrap_content"
         android:text="Switch" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/purple_200"
+        android:gravity="center"
+        >
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:padding="20dp"
+        android:text="aceptar"
+        />
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="denegar"
+        />
+
+
+   </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/teal_200"
+        android:gravity="center"
+        android:layout_marginVertical="10dp"
+        >
+        <TextView
+            android:id="@+id/tw1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="aceptar"
+            android:layout_weight="1"
+            />
+        <TextView
+            android:id="@+id/tw2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="denegar"
+            android:layout_weight="2"
+            />
+
+
+    </LinearLayout>
 
 
 </LinearLayout>
