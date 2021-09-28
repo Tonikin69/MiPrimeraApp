@@ -13,7 +13,7 @@
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/floatingActionButton"
         android:layout_width="95dp"
-        android:layout_height="89dp"
+        android:layout_height="84dp"
         android:layout_gravity="left"
         android:layout_marginTop="10dp"
         android:clickable="true" />
@@ -23,21 +23,21 @@
         android:layout_width="155dp"
         android:layout_height="94dp"
         android:gravity="left"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp">
 
         <TextView
             android:id="@+id/tw1"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:layout_margin="10dp"
             android:layout_weight="1"
             android:text="Asunto" />
 
         <TextView
             android:id="@+id/tw2"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:layout_margin="10dp"
             android:layout_weight="1"
             android:text="Contenido" />
 
@@ -48,21 +48,20 @@
         android:layout_width="149dp"
         android:layout_height="94dp"
         android:gravity="right"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:layout_marginTop="5dp">
 
         <TextView
             android:id="@+id/tw6"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:layout_margin="10dp"
             android:layout_weight="1"
             android:text="Fecha" />
 
         <TextView
             android:id="@+id/tw4"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:layout_margin="10dp"
             android:layout_weight="1"
             android:text="Estrellita" />
 
