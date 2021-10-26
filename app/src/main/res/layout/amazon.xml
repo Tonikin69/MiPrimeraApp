@@ -39,7 +39,8 @@
                 ></TextView><View
                 android:layout_width="match_parent"
                 android:layout_height="2dp"
-                android:background="@color/white" ></View></LinearLayout>
+                android:background="@color/white"
+                android:layout_marginStart="3dp"></View></LinearLayout>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
