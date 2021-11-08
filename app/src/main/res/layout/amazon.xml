@@ -95,6 +95,7 @@
             android:orientation="vertical">
 
             <ImageView
+                android:id="@+id/clika"
                 android:layout_marginTop="10dp"
                 android:layout_width="match_parent"
                 android:layout_height="120dp"
