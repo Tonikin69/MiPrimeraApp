@@ -102,6 +102,7 @@
                 android:scaleType="centerCrop"
                 android:src="@mipmap/pueblito"></ImageView>
             <TextView
+                android:id="@+id/clika2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Series Amazon Originals y exclusivas"
@@ -114,10 +115,12 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content">
                 <LinearLayout
+                    android:id="@+id/clika3"
                     android:layout_marginTop="10dp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:orientation="horizontal">
+                    android:orientation="horizontal"
+                    android:visibility="invisible">
                     <ImageView
 
                         android:layout_width="200dp"
